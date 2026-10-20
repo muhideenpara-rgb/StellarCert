@@ -1,0 +1,24 @@
+{
+  "default_branch": "main",
+  "branches": [
+    "fix/issue-14-ip-rate-limit-guard-stores-state-in-process",
+    "fix/issue-28-two-separate-dashboard-stats-apis-with",
+    "fix/issue-30-crl-rs-revoke-certificate-emits-no-event",
+    "main",
+    "origin"
+  ],
+  "parent": {
+    "fix/issue-14-ip-rate-limit-guard-stores-state-in-process": "main",
+    "fix/issue-28-two-separate-dashboard-stats-apis-with": "main",
+    "fix/issue-30-crl-rs-revoke-certificate-emits-no-event": "main",
+    "main": null,
+    "origin": "main"
+  },
+  "order": [
+    "main",
+    "fix/issue-14-ip-rate-limit-guard-stores-state-in-process",
+    "fix/issue-28-two-separate-dashboard-stats-apis-with",
+    "fix/issue-30-crl-rs-revoke-certificate-emits-no-event",
+    "origin"
+  ]
+}
